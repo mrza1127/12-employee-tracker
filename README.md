@@ -7,3 +7,6 @@ You are able to view, add and update information about employees, roles, and dep
 ## Get Started
 
 To start the app, run 'node index' 
+
+## Link
+- [Walkthrough Video](https://drive.google.com/file/d/1D_3C7lFneD3gB_yX2EmIZt0Esk3VXPl8/view)
