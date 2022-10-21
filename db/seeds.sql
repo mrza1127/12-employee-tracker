@@ -12,11 +12,9 @@ VALUES
     ('Marketing Analyst', 90000, 2),
     ('Sales Representative', 75000, 3);
 
-INSERT INTO employee (first_name, last_name, role_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Isaias', 'Moraza', 1),
-    ('Samantha', 'Orangeseed', 3),
-    ('John', 'Appleseed', 2),
-    ('Wilma', 'Orangeseed', 1),
-    ('Jimmy', 'Appleseed', 3),
-    ('Dimaris', 'Orangeseed', 2);
+    ('Isaias', 'Moraza', 1, null),
+    ('Samantha', 'Orangeseed', 3, null),
+    ('John', 'Appleseed', 2, null),
+    ('Wilma', 'Orangeseed', 1, null),
