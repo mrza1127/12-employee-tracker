@@ -6,11 +6,13 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         // mysql user
-        user: '',
+        user: 'root',
         // password
-        password: '',
+        password: ' ',
         database: 'employee_tracker'
     }
 )
+
+db.query = util.promisify(db.query)
 
 module.exports = db

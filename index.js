@@ -1,4 +1,4 @@
 const inquirer = require('inquirer')
-const { initialMenu, actionMenu } = require('./lib/Menu')
+const { initiateMenu, actionMenu } = require('./lib/Menu')
 
-initialMenu()
+initiateMenu()
